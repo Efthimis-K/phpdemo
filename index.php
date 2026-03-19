@@ -1,8 +1,9 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
+// Database configuration, names omitted for security
+$servername = ""; // Server name
+$username = ""; // Username
+$password = ""; // Password
 
 
 $info = mysqli_connect($servername, $username, $password);
