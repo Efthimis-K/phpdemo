@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="img">
+        <div class="container">
+            <h1>Project</h1>
+            <p>This is a project</p>
+
+            <form action="index_secure.php" method="post">
+                <!-- method="post" is used to send data to the server, action="index.php" is used to specify the file to send the data to -->
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Name">
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="text" name="age" id="age" placeholder="age">
+                </div>
+                <div>
+                    <label for="gender">Gender</label>
+                    <input type="text" name="gender" id="gender" placeholder="Gender">
+                </div>
+                <div>
+                    <label for="description">Description</label>
+                    <input type="text" name="description" id="description" placeholder="Description">
+                </div>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="text" name="phone" id="phone" placeholder="Phone">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
