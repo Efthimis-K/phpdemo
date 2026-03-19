@@ -42,6 +42,14 @@ The test demonstrates:
 2. Form submits to `index_secure.php` (secure version)
 3. Compare with vulnerable `index.php` to understand risks
 
-## Database Setup
-- Database name: `fullform` (update in `index_secure.php` if needed)
-- Table name: `fullform` with columns: Name, Age, Gender, Description, Phone, Email, Date
+## Database Setup (XAMPP)
+- **XAMPP required**: Ensure Apache and MySQL are running in XAMPP Control Panel
+- **Database name**: Update `$database` variable in `index_secure.php` 
+- **Table name**: `fullform` with columns: Name, Age, Gender, Description, Phone, Email, Date
+- **Default credentials**: Typically `localhost`, `root`, empty password for XAMPP MySQL
+
+### Configuration Steps
+1. Start XAMPP Control Panel
+2. Start Apache and MySQL services
+3. Update database credentials in both PHP files
+4. Create database and table using phpMyAdmin or MySQL console
